@@ -1,5 +1,6 @@
 function [] = readcggtts(infile,outfile)
 fprintf ('this is readcggtts infile=%s outfile=%s\n',infile,outfile)
+% this version is in the test directory
 % THIS NEEDS TO BE REVISED FOR NON-GPS INPUTS
 % this just reads a cggtts file and outputs the eqiuvalent in the following column-spaced format:
 % it also creates an outfile for each satellite
