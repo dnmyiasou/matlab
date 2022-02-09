@@ -1,5 +1,5 @@
 function [] = readcggtts(infile,outfile)
-%this version is in the main directory.
+%this version was in the main directory and now it is in test2
 fprintf ('this is readcggtts infile=%s outfile=%s\n',infile,outfile)
 % THIS NEEDS TO BE REVISED FOR NON-GPS INPUTS
 % this just reads a cggtts file and outputs the eqiuvalent in the following column-spaced format:
